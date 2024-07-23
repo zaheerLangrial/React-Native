@@ -1,10 +1,12 @@
-import { View, Text } from "react-native";
+import { Text, SafeAreaView } from "react-native";
 import React from "react";
+import { Colors } from "../../constants/Colors";
 
 export default function Profile() {
   return (
-    <View>
+    <SafeAreaView style={{
+    }}>
       <Text>Profile</Text>
-    </View>
+    </SafeAreaView>
   );
 }

@@ -8,7 +8,7 @@ export default function Index() {
   console.log('user', user)
   return (
     <View>
-      {user ? <Redirect href={"/mytrip"} /> : <Login />}
+      {true ? <Redirect href={"/mytrip"} /> : <Login />}
       <Login />
     </View>
   );

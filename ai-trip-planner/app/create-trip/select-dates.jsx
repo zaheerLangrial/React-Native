@@ -19,22 +19,22 @@ export default function SelectDates() {
     });
   });
 
-  useEffect(() => {
-    if (tripData?.startDate && tripData.endDate) {
-      setTripData({
-        ...tripData,
-        totalDays: (tripData?.endDate.diff(tripData?.startDate, "days")) + 1,
-      });
-    } else {
-        setTripData({...tripData, totalDays: ''})
-    }
-  }, [tripData.startDate,tripData.endDate]);
+  // useEffect(() => {
+  //   if (tripData?.startDate && tripData.endDate) {
+  //     setTripData({
+  //       ...tripData,
+  //       totalDays: moment(tripData?.endDate.diff(tripData?.startDate, "days")) + 1,
+  //     });
+  //   } else {
+  //       setTripData({...tripData, totalDays: ''})
+  //   }
+  // }, [tripData.startDate,tripData.endDate]);
 
   const handleDate = (date, type) => {
     if (type === "START_DATE") {
-       setTripData({ ...tripData, startDate: moment(date) });
+       setTripData({ ...tripData, startDate: moment(date).format("MM/DD") });
     } else {
-      setTripData({ ...tripData, endDate: moment(date) });
+      setTripData({ ...tripData, endDate: moment(date).format("MM/DD")});
     }
   };
   return (

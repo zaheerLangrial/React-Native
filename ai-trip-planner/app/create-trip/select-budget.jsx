@@ -85,7 +85,7 @@ export default function SelectTraveler() {
           style={{ paddingTop: 25 }}
         />
       </View>
-      {/* <View
+      <View
         style={{
           marginTop: 20,
           display: "flex",
@@ -94,8 +94,7 @@ export default function SelectTraveler() {
         }}
       >
         <TouchableOpacity
-          // disabled={tripData?.travelerMember === '' ? false : true}
-          onPress={() => router.push("/create-trip/select-dates")}
+          onPress={() => router.push("/create-trip/trip-review")}
           style={{
             padding: 15,
             backgroundColor: Colors.PIRMARY,
@@ -113,7 +112,7 @@ export default function SelectTraveler() {
             Next
           </Text>
         </TouchableOpacity>
-      </View> */}
+      </View>
     </View>
   );
 }

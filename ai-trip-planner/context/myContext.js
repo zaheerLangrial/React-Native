@@ -8,7 +8,6 @@ export const MyState = ({ children }) => {
     travelerMember: "just me" | "a couple" | "family" | "friends",
       startDate: '',
       endDate: '',
-      totalDays: '',
     budget: "cheap" | "moderate" | "luxury",
   });
 

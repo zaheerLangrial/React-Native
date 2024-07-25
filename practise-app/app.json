@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ai-trip-planner",
-    "slug": "ai-trip-planner",
+    "name": "practise-app",
+    "slug": "practise-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,8 +19,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.zaheerahmad111.aitripplanner"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -32,14 +31,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "81f34b07-5ffb-4417-b00c-c9747fb3b67e"
-      }
     }
   }
 }

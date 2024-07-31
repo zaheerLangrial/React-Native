@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348833048701",
+    "project_id": "ld-keeping",
+    "storage_bucket": "ld-keeping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348833048701:android:f76af68c2248d6a01c6914",
+        "android_client_info": {
+          "package_name": "com.keeping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348833048701-bp77a0qra525e50srs9cuurb85hmnsaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8_UHR3x3hLumL1IPHqszKWu8k1dRdbQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348833048701-bp77a0qra525e50srs9cuurb85hmnsaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
